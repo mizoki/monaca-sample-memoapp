@@ -12,6 +12,7 @@ import {MyApp} from './app';
     <div class="content">
       <ons-list>
         <ons-list-item (click)="app.load('home')">Home</ons-list-item>
+        <ons-list-item (click)="app.load('setting')">Setting</ons-list-item>
         <ons-list-item (click)="app.load('about')">About</ons-list-item>
       </ons-list>
     </div>

@@ -12,6 +12,7 @@ import {MyApp} from './app/app';
 import {HomePage} from './app/home';
 import {MenuPage} from './app/menu';
 import {AboutPage} from './app/about';
+import {SettingPage} from './app/setting';
 
 // Enable production mode when in production mode.
 if (process.env.NODE_ENV === 'production') {
@@ -28,11 +29,13 @@ if (process.env.NODE_ENV === 'production') {
         HomePage,
         MenuPage,
         AboutPage,
+        SettingPage,
     ],
     entryComponents: [
         HomePage,
         MenuPage,
         AboutPage,
+        SettingPage,
     ],
     bootstrap: [
         MyApp,

@@ -3,6 +3,7 @@ import {OnsSplitterContent, OnsSplitterSide} from 'ngx-onsenui';
 import {HomePage} from './home';
 import {MenuPage} from './menu';
 import {AboutPage} from './about';
+import {SettingPage} from './setting';
 
 @Component({
   selector: 'app',
@@ -16,7 +17,8 @@ export class MyApp {
   pages = {
     home: HomePage,
     menu: MenuPage,
-    about: AboutPage
+    about: AboutPage,
+    setting: SettingPage
   };
 
   load(name) {
